@@ -68,6 +68,7 @@ export default function Speedometer() {
   return (
     <>
       <div className="speed_meter_main">
+
         <div style={{ backgroundImage: 'url("/images/guage.png")' }} className="guage">
           <div className="needle"> </div>
           {!go ? <div onClick={() => { go ? setGo(false) : setGo(true); moveArrow(data[index].time, data[index].speed) }} className="time go">GO</div> :

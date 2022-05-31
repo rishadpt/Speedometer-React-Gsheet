@@ -7,7 +7,6 @@ function App() {
   return (
 
     <div className="speed_meter_container">
-
    <Speedometer/>
     </div>
   );
